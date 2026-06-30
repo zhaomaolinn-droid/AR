@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Football of Argentina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f8fb;
+            color: #333;
+        }
+
+        header {
+            background-color: #75AADB;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #4A90C2;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #4A90C2;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        footer {
+            background-color: #75AADB;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>The Football of Argentina</h1>
+    <p>The Passion, History, and Glory of Argentine Football</p>
+</header>
+
+<nav>
+    <a href="#history">History</a>
+    <a href="#players">Famous Players</a>
+    <a href="#achievements">Achievements</a>
+</nav>
+
+<section id="history">
+    <h2>History of Argentine Football</h2>
+    <p>
+        Football is the most popular sport in Argentina. It was introduced in the
+        late 19th century by British immigrants and quickly became a national
+        passion. Today, Argentina is recognized as one of the world's greatest
+        football nations.
+    </p>
+</section>
+
+<section id="players">
+    <h2>Famous Argentine Players</h2>
+    <ul>
+        <li>Lionel Messi</li>
+        <li>Diego Maradona</li>
+        <li>Gabriel Batistuta</li>
+        <li>Javier Zanetti</li>
+        <li>Ángel Di María</li>
+    </ul>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Argentina_national_football_team.jpg"
+         alt="Argentina National Football Team">
+</section>
+
+<section id="achievements">
+    <h2>Major Achievements</h2>
+    <ul>
+        <li>🏆 FIFA World Cup Champions: 1978, 1986, 2022</li>
+        <li>🏆 Copa América Champions: 16 Titles</li>
+        <li>🥇 Olympic Gold Medals: 2004, 2008</li>
+        <li>⭐ Home to many legendary football players</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2026 The Football of Argentina | Designed with HTML & CSS</p>
+</footer>
+
+</body>
+</html>
